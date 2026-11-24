@@ -1,0 +1,170 @@
+@font-face {
+    font-family:StrangeDreams ;
+    src: url('../fontes/strange_dreams/Strange\ Dreams\ Italic.otf');
+}
+
+body{
+    background-image: url(../img/Loja\ de\ Sobrevivência\ Pós-Apocalíptica.png);
+}
+
+h1,p{
+    color: red;
+    font-family: 'StrangeDreams', sans-serif;
+}
+
+.menu-lista li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: #fff;
+    color: #123a67;
+
+    border: 1px solid #fff;
+    border-radius: 4px;
+
+    text-decoration: none;
+}
+
+.menu-link:hover {
+  background: linear-gradient(45deg, #cc0000, #ff1a1a);
+  transform: scale(1.04);
+  box-shadow: 0 0 15px #ff1a1a;
+}
+
+
+
+ .container-central {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 80vh;        
+}
+
+footer {
+  background-color: rgba(10, 10, 10, 0.85); 
+  border-top: 3px solid #ff1a1a;             
+  box-shadow: 0 -5px 15px rgba(255, 0, 0, 0.3); 
+  color: #f0f0f0;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;                         
+}
+.container-produtos {
+  display: flex;             /* Deixa todos os cards filhos lado a lado */
+  justify-content: center;   /* Centraliza o grupo de cards na tela */
+  flex-wrap: wrap;           /* Faz os cards pularem para a linha de baixo se a tela for muito pequena */
+  gap: 20px;                 /* Cria um espaçamento automático de 20px entre os cards */
+  padding: 40px;
+}
+
+.card-produto {
+  width: 320px;              /* Largura fixa para cada card */
+  /* ... seus outros estilos de cor, borda e fundo apocalíptico ... */
+}
+.container-produtos {
+  display: flex;             /* Deixa todos os cards filhos lado a lado */
+  justify-content: center;   /* Centraliza o grupo de cards na tela */
+  flex-wrap: wrap;           /* Faz os cards pularem para a linha de baixo se a tela for pequena */
+  gap: 25px;                 /* Cria um espaçamento automático de 25px entre os cards */
+  padding: 40px;
+}
+
+.card-produto {
+  position: relative;
+  width: 320px;
+  background: rgba(15, 15, 15, 0.9);
+  border: 2px solid #b30000;
+  border-radius: 10px;
+  padding: 20px;
+  color: #f0f0f0;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-produto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(255, 30, 0, 0.8);
+}
+
+.badge-promo {
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  background-color: #d90429;
+  color: white;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 4px;
+  transform: rotate(-5deg);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.card-produto img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.titulo-produto {
+  color: #ff2a2a;
+  font-size: 1.4rem;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+}
+
+.descricao-produto {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+.area-preco {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.preco-novo {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.preco-novo strong {
+  color: #ffbe0b;
+  font-size: 1.5rem;
+}
+
+.botao-apocalipse {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #9b0000, #e60000);
+  border: 2px solid #ff4d4d;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.botao-apocalipse:hover {
+  background: linear-gradient(45deg, #cc0000, #ff1a1a);
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #ff1a1a;
+}

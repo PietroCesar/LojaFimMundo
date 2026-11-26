@@ -58,22 +58,20 @@ footer {
   margin-top: 50px;                         
 }
 .container-produtos {
-  display: flex;             /* Deixa todos os cards filhos lado a lado */
-  justify-content: center;   /* Centraliza o grupo de cards na tela */
-  flex-wrap: wrap;           /* Faz os cards pularem para a linha de baixo se a tela for muito pequena */
-  gap: 20px;                 /* Cria um espaçamento automático de 20px entre os cards */
+  display: flex;           
+  justify-content: center;   
+  gap: 20px;                 
   padding: 40px;
 }
 
 .card-produto {
-  width: 320px;              /* Largura fixa para cada card */
-  /* ... seus outros estilos de cor, borda e fundo apocalíptico ... */
+  width: 320px;             
+
 }
 .container-produtos {
-  display: flex;             /* Deixa todos os cards filhos lado a lado */
-  justify-content: center;   /* Centraliza o grupo de cards na tela */
-  flex-wrap: wrap;           /* Faz os cards pularem para a linha de baixo se a tela for pequena */
-  gap: 25px;                 /* Cria um espaçamento automático de 25px entre os cards */
+  display: flex; 
+  justify-content: center;
+  gap: 25px;                 
   padding: 40px;
 }
 
@@ -168,7 +166,7 @@ footer {
   transform: scale(1.03);
   box-shadow: 0 0 15px #ff1a1a;
 }
-/* Estilos da Página Sobre Nós */
+
 .container-sobre {
   display: flex;
   justify-content: center;
